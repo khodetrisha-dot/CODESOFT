@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#0d6efd;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            margin-top:10px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        .hero{
+            text-align:center;
+            padding:80px 20px;
+            background:white;
+        }
+
+        .hero h1{
+            font-size:48px;
+            margin-bottom:15px;
+        }
+
+        .hero p{
+            font-size:18px;
+            margin-bottom:20px;
+        }
+
+        .btn{
+            display:inline-block;
+            background:#0d6efd;
+            color:white;
+            padding:12px 25px;
+            text-decoration:none;
+            border-radius:5px;
+        }
+
+        .features{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            padding:50px 20px;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            width:300px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+            text-align:center;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Landing Page</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Our Website</h1>
+        <p>We provide amazing solutions for your business.</p>
+        <a href="#" class="btn">Get Started</a>
+    </section>
+
+    <section class="features">
+
+        <div class="card">
+            <h2>Fast</h2>
+            <p>Quick and efficient services for everyone.</p>
+        </div>
+
+        <div class="card">
+            <h2>Reliable</h2>
+            <p>Trusted by many customers around the world.</p>
+        </div>
+
+        <div class="card">
+            <h2>Secure</h2>
+            <p>Your data and privacy are always protected.</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 My Landing Page. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
